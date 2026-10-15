@@ -1,0 +1,36 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Datasets, generated outputs, and local experiment artifacts
+initial_datasets/
+generated_datasets/
+datasets/
+outputs/
+output/
+saved_predictions/
+*.log
+*.pt
+*.pth
+*.ckpt
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local credentials and connection configuration
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.ppk
+*.kdbx
